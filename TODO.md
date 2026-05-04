@@ -2,7 +2,7 @@
 
 ## Fase 0 — Organização inicial
 
-- [ ] Criar repositório no GitHub.
+- [x] Criar repositório no GitHub.
 - [ ] Criar estrutura inicial de pastas.
 - [ ] Criar `README.md`.
 - [ ] Criar `docs/00_visao_geral.md`.

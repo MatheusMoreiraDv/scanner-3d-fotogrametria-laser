@@ -102,12 +102,12 @@ out4 = 12   # Bobina 4 do motor
 # CONFIGURAÇÃO DE PERIFÉRICOS ADICIONAIS (BOTÃO E LED)
 # =============================================================================
 # Botão conectado ao pino GPIO 23 — usado para iniciar o processo de varredura.
-button = Button(23)
+button = Button(26)
 
 # LED com controle PWM no pino GPIO 18.
 # PWM permite variar o brilho do LED (0% = apagado, 100% = máximo brilho).
 # O método .pulse() faz o LED piscar suavemente como indicação de status.
-led = PWMLED(18)
+led = PWMLED(6)
 
 # Variável de controle do estado atual do motor de passo.
 # O motor possui 8 posições (estados 0 a 7) na sequência half-step.
